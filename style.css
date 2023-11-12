@@ -1,0 +1,582 @@
+@font-face {
+  font-family: "Urbanist", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap");
+}
+*{
+    padding: 0 32px;
+    margin: 0;
+    background-color: #01000E;
+    color: white;
+    font-family: "Urbanist", sans-serif;
+}
+.logo{
+    background: linear-gradient(90deg, #4E4BE4 24.42%, #E862FE 73.78%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+}
+
+.navsec{
+    padding-top: 16px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 20px 0;
+    font-size: 14px;
+}
+.btn{
+    background-color: #5350F7;
+    font-size: 12px;
+}
+button{
+    background-color: #5350F7;
+    border-radius: 25px;
+    padding: 16px;
+    border: none;
+    margin: 30px;
+}
+.menu{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 80px;
+    font-weight: 600;
+    background: linear-gradient(90deg, #4E4BE4 24.42%, #E862FE 73.78%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    gap: 24px;
+    line-height: 88px;
+}
+
+.p2{
+    color: #FF3BFF;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 125% */
+    text-transform: uppercase;
+}
+.pic1{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.content{
+   display: flex;
+    width: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    padding-left: 0;
+    padding-right: 0;
+    background: transparent;
+   
+}
+.list{
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 16px;
+    background: #181924;
+    width: 600px;
+}
+.posts{
+    background: transparent;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 15px;
+}
+.listItem{
+    background: transparent;
+    display: flex;
+    padding: 8px;
+}
+.stack{
+    background: transparent;
+    padding: 0;
+}
+.stack1{
+    background: transparent;
+}
+.two{
+    display: flex;
+    gap: 60px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+     background-image: url(pildid/Frame\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    ;
+}
+h2{
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 61.6px */
+    background: linear-gradient(90deg, #4E4BE4 24.42%, #E862FE 73.78%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.p3{
+    color: #FFF;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 48px */
+}
+.three{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 140px;
+    padding: 0;
+    background: transparent;
+     background-image: url(pildid/Frame\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 63%;
+    
+}
+h3{
+    color: #FFF;
+    font-family: "Urbanist", sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 67.2px */
+    background-color: transparent;
+    padding: 0;
+}
+p{
+    color: #FCFDFF;
+    font-family: "Urbanist", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 150% */
+    background-color: transparent;
+    padding: 0;
+}
+body{
+    padding: 0;
+}
+section{
+    padding: 80px 0 0 0;
+}
+.sec1{
+    padding: 80px 0;
+}
+.solid{
+    width: 472px;
+    opacity: 0.12;
+    background: #FFF;
+}
+h4{
+    background-color: transparent;
+    color: #FFF;
+    font-family: "Urbanist", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 116.667% */
+    padding: 0;
+}
+.sec2{
+    padding: 80px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    background-image: url(pildid/Frame\ 2\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.mode{
+    display: flex;
+    padding: 60px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+    border-radius: 40px;
+    background: #181924;
+    max-width: 380px;
+    max-height: 430px;  
+    background-image: url(pildid/Frame\ 2.png);
+    background-repeat: no-repeat;
+    background-position: 275% -800%;
+    background-size: 80%; 
+}
+.proactive{
+    display: flex;
+    padding: 24px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 100px;
+}
+.seamless{
+    display: flex;
+    padding: 60px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    border-radius: 40px;
+    background: #181924;
+    margin: 96px 185px 0 185px;
+    background-image: url(pildid/Frame\ 2.png);
+    background-repeat: no-repeat;
+    background-position: 130% -50%;
+    background-size: 40%;
+}
+.seam1{
+    background: transparent;
+}
+.p4{
+    color: #FFF;
+    font-family: "Urbanist", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 136.364% */
+}
+.sec3{
+    padding: 80px 0;
+}
+.tables{
+    display: flex;
+    padding: 64px 0px;
+    align-items: flex-start;
+    gap: 80px;
+}
+.reflect{
+    font-family: "Urbanist", sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 46px; /* 109.524% */
+    letter-spacing: -1.26px;
+    background: linear-gradient(90deg, #4A3AFF 0%, #E863FE 51.9%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0;
+}
+.personal{
+    color: #FFF;
+    font-family: "Urbanist", sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: -1.26px;
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 140px;
+}
+.feat{
+    color: #4A3AFF;
+    font-family: "Urbanist", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+}
+.ures{
+    padding: 0;
+}
+.tables1{
+     display: flex;
+    padding: 64px 0px;
+    align-items: flex-start;
+    gap: 80px;
+    flex-direction: row-reverse;
+}
+.box3{
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+}
+.box{
+    display: flex;
+    padding: 20px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;    
+    border-radius: 30px;
+    background: #181924;
+}
+.author{
+    display: flex;
+    padding: 0 20px;
+    background: transparent;    
+}
+.company{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   padding: 5px 20px;
+   background: transparent;
+}
+.stars{
+    display: flex;
+    justify-content: end;
+    padding-right: 0;
+    background: transparent;
+}
+.star{
+    padding: 0;
+    background: transparent;
+}
+.AN{
+    color: #FFF;
+    font-family: "Urbanist", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 21px */
+    padding: 0;
+}
+.VP{
+    color: #FFF;
+    font-family: "Urbanist", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 18px */
+    padding: 0;
+}
+.a-img{
+    padding: 0;
+    background: transparent;
+}
+.testimonials{
+    background: transparent;
+}
+.p5{
+    color: #FFF;
+    font-family: "Urbanist", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    padding: 0;
+}
+.L5{
+    display: flex;
+    background: transparent;
+    padding: 0;
+}
+img{
+    background: transparent;
+}
+.plans{
+    display: flex;
+    padding: 24px 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-radius: 32px;
+    border: 1px solid #26232C;
+    background: #181924;
+}
+.startup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    background: transparent;
+}
+.idk{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pic3{
+    width: 154.868px;
+    height: 205.882px;
+    flex-shrink: 0;
+}
+.pics{
+    display: flex;
+    padding: 0px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    background: transparent;
+}
+.solid1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+.p6{
+    color: #FFF;
+    font-family: "Urbanist", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+    padding: 0;
+}
+.btn1{
+    background-color: #5350F7;
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.AIstartup{
+    display: flex;
+    padding: 80px 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+.AIup{
+    display: flex;
+    width: 1280px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 120px 0;
+}
+.spn{
+    background: linear-gradient(90deg, #4F4CE5 36.93%, #F249C8 62.68%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Urbanist", sans-serif;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+.p7{
+    color: #FFF;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 145.455% */
+    width: 42ch;
+    padding: 0;
+}
+.orig{
+    padding: 0;
+}
+.copy{
+    color: #FFF;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+.footerb{
+    border-top: 1px solid white;
+    display: flex;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+.footeru{
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+    align-self: stretch;
+    flex-direction: row;
+    padding-left: 0;
+}
+.logo1{
+    display: flex;
+    width: 320px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding-left: 0;
+    padding-right: 24px;
+}
+.p8{
+    font-family: "Urbanist", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 120% */
+    background: linear-gradient(90deg, #5350F6 2.42%, #E662FE 104.13%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0 12px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footerf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    flex: 1 0 0;
+    padding: 80px 0;
+}
+.flink{
+    padding: 0;
+}
+.expert{
+    color: #FFF;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px; /* 125% */
+    padding-bottom: 16px;
+}
